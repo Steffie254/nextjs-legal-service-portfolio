@@ -1,3 +1,4 @@
+import About from '@/components/About'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import { Inter } from 'next/font/google'
@@ -21,9 +22,13 @@ export default function Home() {
 
         </section>
         {/* About */}
+        <section id='about' className='snap-center'>
+          <About />
+
+        </section>
         {/* Experience */}
-        {/* Skills */}
-        {/* Projects */}
+        {/* Services */}
+        {/* Case Studies */}
         {/* Contact me */}
       </div>
     
