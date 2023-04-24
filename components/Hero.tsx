@@ -14,7 +14,7 @@ export default function Hero({}: Props) {
         words: [
             "Hi, I'm Nassil Otieno",
             "Legal Service Provider",
-            "Let's see what your problem is",
+            "Book a free consultation with me",
         ],
         loop: true,
         delaySpeed: 2000,
@@ -23,11 +23,11 @@ export default function Hero({}: Props) {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles />
         <img className='relative rounded-full h-32 w-32 mx-auto object-cover' 
-        src="/nassil1.png" alt="Nassil Otieno"/>
+        src="/nassil2.png" alt="Nassil Otieno"/>
         
     <div className="z-20">    
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
-            Legal practice
+            Legal service
         </h2>
         <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
             <span className='mr-3'>{text}</span>
