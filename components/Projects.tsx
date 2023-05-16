@@ -32,7 +32,7 @@ export default function Projects({}: Props) {
                     <h4 className='text-4xl font-semibold text-center'>
                         <span className='underline decoration-[#F7AB0A]/50'>
                             Case Study {i+1} of {projects.length}: 
-                        </span>{""}
+                        </span>{" "}
                          OTIZ vs MADIGO
                     </h4>
                     <p className='text-lg text-center md:text-left'>
