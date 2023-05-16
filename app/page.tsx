@@ -1,7 +1,9 @@
 import About from '@/components/About'
+import ContactMe from '@/components/ContactMe'
 import Experience from '@/components/Experience'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Projects from '@/components/Projects'
 import Services from '@/components/Services'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
@@ -33,8 +35,15 @@ export default function Home() {
         <section id='services' className='snap-start'>
             <Services />
         </section>
-        {/* Case Studies */}
-        {/* Contact me */}
+
+        <section id='projects' className='snap-start'>
+          <Projects />
+        </section>
+        
+        
+        <section id='contact' className='snap-start'>
+          <ContactMe />
+        </section>
       </div>
     
   )
